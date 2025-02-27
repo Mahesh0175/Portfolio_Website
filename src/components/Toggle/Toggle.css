@@ -1,0 +1,25 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: var(--primary-color, #eaa800);
+  border-radius: 25px;
+  padding: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle:hover {
+  background-color: var(--secondary-color, #03dac6);
+}
+
+.t-button {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s ease;
+}
